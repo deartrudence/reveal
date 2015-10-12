@@ -49,6 +49,140 @@
 				</section>
 
 				<section>
+					<h2 class="title"><span>Tech Talk<span>: From Rails Beginner to Creating Viable Product– Making the Jump! </h2>
+				</section>
+
+				<section>
+					<h2>Steps to creating a viable product</h2>
+					<p class="fragment">Step 1: Build a prototype</p>
+					<p class="fragment">Step 2: Get a user</p>
+					<p class="fragment">Step 3: Time to reflect – refractoring, testing</p>
+					<p class="fragment">Step 4: Mo users, Mo problems – improving performance</p>
+					<p class="fragment">Step 5: Upgrade - Adding new features </p>
+					<p class="fragment">Step 6: Integrating with enterprise software</p>
+				</section>
+
+				<section>
+					<h2>Step 1: Build a prototype</h2>
+					<ul>
+						<li class="fragment"><h4>Idea: Turn excel worksheet used to track project plans' activity and financials into web-based application</h4></li>
+						<li class="fragment"><h4>Sign-up for HackerYou Part-time Rails course</h4>
+						<ul>
+							<li class="fragment">Leanne convincers her boss</li>
+							<li class="fragment">Trudy doesn't buy Chanel purse (still hasn't)</li>
+						</ul>
+						</li>
+						<br>
+						<li class="fragment"><h4>Build prototype and put it online</h4>
+						<ul>
+							<li class="fragment">Heroku</li>
+							<li class="fragment">Amazon S3</li>
+						</ul>
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Step 2: Get User</h2>
+
+					<ul>
+						<li class="fragment">Hired a senior rails developer to refine prototype and get it ready for demo
+						<ul>
+							<li class="fragment">Refractored, Add user authorization, Admin panel to get user set up on app with plan upload feature via csv file</li>
+						</ul>
+						</li>
+						<li class="fragment">Sales pitches to existing clients – 6month</li>
+						<li class="fragment">Writing one-year SAAS subscription contract</li>
+						<li class="fragment">Signed first client (date)</li>
+						<li class="fragment">2 more businesses signed on – funded future developed</li>
+						<li class="fragment">Trudy joins team! </li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Step 3: Time to reflect</h2>
+					<ul>
+						<li><h4>Refactoring</h4>
+							<ul>
+								<li class="fragment">Read: Eloquent Ruby</li>
+								<li class="fragment">Unwildly code, some lines from very first week of Rails course</li>
+								<li class="fragment">Making code maintainable
+									<ul>
+										<li class="fragment">Taking logic out of controllers/view and adding into models and helpers</li>
+										<li class="fragment">DRY ‘ing (don’t repeat yourself) your code</li>
+										<li class="fragment">Deleting non-used code, views, controllers, methods …etc</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><h4>Testing</h4>
+							<ul>
+								<li class="fragment">Everyone will tell you to do this, they’re right !</li>
+								<li class="fragment">Rspec, factory girl</li>
+								<li class="fragment">Read: Everyday Rails Testing</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Steps 4: Mo users, Mo problems</h2>
+					<ul>
+						<li class="fragment"><h4>Performance</h4>
+							<ul>
+								<li class="fragment">Upgraded from WEBrick (not meant for production) to Unicorn</li>
+								<li class="fragment">Upgraded plan on Heroku</li>
+								<li class="fragment">Database
+									<ul>
+										<li class="fragment">Rack mini profiler … time to upload each page, number of SQL queries</li>
+										<li class="fragment">Bullet … where you put joins in queries</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>	
+
+				<section>
+					<h2>Step 5: Upgrade - Adding new features</h2>
+					<ul>
+						<li class="fragment"><h4>User Feedback</h4>
+							<ul>
+								<li class="fragment">One v many users</li>
+								<li class="fragment">People pleasing... Easy to get sidetracked</li>
+							</ul>
+						</li>
+						<br>
+						<li class="fragment"><h4>Change Management Log</h4>
+							<ul>
+								<li class="fragment">Pushing changes while users are active</li>
+								<li class="fragment">Created Github change log to consider impact  (Change #, description, changes to underlying data structure)</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Step 6: Integrating with enterprise software</h2>
+					<ul>
+						<li class="fragment">SPIDER is and enterprise web app - B2B</li>
+						<li class="fragment">Issue: Not a stand-alone app, must integrate with existing system</li>
+						<li class="fragment">Solution: Synchronizing information from ERP systems to SPIDER
+							<ul>
+								<li class="fragment">Align SPIDER database to ERP </li>
+								<li class="fragment">Upload information via csv files</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Gems we found along the way</h2>
+					<ul>
+						<li>better_errors</li>
+					</ul>
+				</section>
+				<section>
 					<h2>Hello There</h2>
 					<p>
 						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
