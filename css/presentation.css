@@ -6,11 +6,17 @@ blue: #4EBBC1;
 */
 
 .reveal .step{
+	border: solid 1px #75D1C4;
 	border-radius: 15px;
-	padding: 10px;
+	padding: 5px;
 	margin-right: 20px;
-	background-color: #75D1C4;
+	background-color: none;
 }
+
+.reveal .fa-arrow-right{
+	color: #4EBBC1;
+}
+
 
 /* Title slide */
 
@@ -23,14 +29,6 @@ blue: #4EBBC1;
 .reveal .table-of-contents .steps{
 	border-left: solid 5px #53C8B4 ;
 	padding-left: 20px;
-}
-
-.reveal .table-of-contents .list_step{
-	border: solid 1px #75D1C4;
-	border-radius: 15px;
-	padding: 5px;
-	margin-right: 20px;
-	background-color: none;
 }
 
 .reveal .table-of-contents p{
