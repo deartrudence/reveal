@@ -41,6 +41,19 @@ blue: #4EBBC1;
 	margin: 20vh 0;
 }
 
+/* Step 1*/
+
+.reveal .step-2 .border-bottom {
+	border-bottom: 3px solid #4EBBC1;
+}
+
+/* Step 1*/
+
+.reveal .step-3 .background {
+	background-color: #4EBBC1;
+	margin: 0 10px 0;
+}
+
 /* Contact slide */
 
 .reveal .contact-slide .profile-pic {
