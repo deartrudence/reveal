@@ -59,27 +59,44 @@
 				<section class="table-of-contents">
   					<h2>Steps to creating a viable product</h2>
             <div class="steps text-left">
-    					<p class="fragment"><span class="step">Step 1</span> Build a prototype</p>
-    					<p class="fragment"><span class="step">Step 2</span> Getting our first user</p>
-    					<p class="fragment"><span class="step">Step 3</span> Time to reflect – refractoring, testing</p>
-    					<p class="fragment"><span class="step">Step 4</span> Mo users, Mo problems – improving performance</p>
-    					<p class="fragment"><span class="step">Step 5</span> Upgrade - Adding new features </p>
-    					<p class="fragment"><span class="step">Step 6</span> Integrating with enterprise software</p>
+            	<p class="fragment"><span class="step">Step 1</span>The Idea</p>
+    					<p class="fragment"><span class="step">Step 2</span> Build a prototype</p>
+    					<p class="fragment"><span class="step">Step 3</span> Getting our first user</p>
+    					<p class="fragment"><span class="step">Step 4</span> Time to reflect – refractoring, testing</p>
+    					<p class="fragment"><span class="step">Step 5</span> Mo users, Mo problems – improving performance</p>
+    					<p class="fragment"><span class="step">Step 6</span> Upgrade - Adding new features </p>
+    					<p class="fragment"><span class="step">Step 7</span> Integrating with enterprise software</p>
             </div>
 				</section>
 
+        <!-- STEP 1: BUILD A PROTOTYPE --> 
+
+        <section>
+          <h2><span class="step">Step 1</span>The Idea</h2><br>
+          <p>SPIDER supports brand teams in implementing their strategic plan by providing an online hub for all team members to access and share information, including both activity and financial data</p>
+          <img src="img/excel.jpg" height="300">
+        </section>
+
+        <section>
+          <h2><span class="step">Step 1</span>The Idea</h2><br>
+          <img src="img/the-idea.gif" height="400" class="gif">
+          <p>Started from an excel sheet, now we are here</p>
+        </section>
+
+        <!-- STEP 2: BUILD A PROTOTYPE --> 
+
 				<section class="step-1">
-					<h2><span class="step">Step 1</span>Build a prototype</h2><br>
+					<h2><span class="step">Step 2</span>Build a prototype</h2><br>
 					<video height="400" controls autoplay>
 					  <source src="img/build-a-prototype.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
 				</section>
 
-        <!-- STEP 1: BUILD A PROTOTYPE --> 
+        
 
-				<section class="step-1">
-					<h2><span class="step">Step 1</span>Build a prototype</h2>
+		<section class="step-1">
+		<h2><span class="step">Step 2</span>Build a prototype</h2>
 
           <div class="row text-center">
             <div class="col-xs-offset-1 col-xs-3">
@@ -196,20 +213,20 @@
 					</ul> -->
 				</section>
 				
-        <!-- STEP 3: TIME TO REFLECT --> 
+        <!-- STEP 4: TIME TO REFLECT --> 
 
         <section>
-          <h2><span class="step">Step 3</span>Time to Reflect</h2><br>
+          <h2><span class="step">Step 4</span>Time to Reflect</h2><br>
           <img src="img/time-to-reflect.gif" height="400" class="gif">
         </section>
 
 				<section class="step-3">
-					<h2><span class="step">Step 3</span>Time to Reflect</h2><br>
+					<h2><span class="step">Step 4</span>Time to Reflect</h2><br>
           <div class="row">
             <div class="col-xs-6">
               <h4 class="fragment background">Refactoring</h4>
               <ul>
-                <li class="fragment">Read: Eloquent Ruby</li>
+                <li class="fragment"><i class="fa fa-bookmark-o"></i> Read: "Eloquent Ruby"</li>
                 <li class="fragment">Making code maintainable
                   <ul>
                     <li class="fragment">Taking logic out of controllers/view and adding into models and helpers</li>
@@ -222,57 +239,68 @@
               <h4 class="fragment background">Testing</h4>
               <ul>
                 <li class="fragment">Everyone will tell you to do this, they’re right !</li>
-                <li class="fragment">Rspec, factory girl</li>
-                <li class="fragment">Read: Everyday Rails Testing</li>
+                <li class="fragment"><i class="fa fa-diamond"></i> Gems: Rspec, factory girl</li>
+                <li class="fragment"><i class="fa fa-bookmark-o"></i> Read: "Everyday Rails Testing"</li>
               </ul>
             </div>
 
           </div>
 				</section>
 
-        <!-- STEP 4: MO USERS, MO PROBLEMS --> 
+        <!-- STEP 5: MO USERS, MO PROBLEMS --> 
 
         <section>
-          <h2><span class="step">Step 4</span>Mo users, mo problems</h2><br>
+          <h2><span class="step">Step 5</span>Mo users, mo problems</h2><br>
           <img src="img/mo-users-mo-problems.gif" height="400" class="gif">
         </section>
 				
 				<section>
-					<h2><span class="step">Step 4</span>Mo users, mo problems</h2>
-					<ul>
-						<li class="fragment"><h4>Performance</h4>
-							<ul>
-								<li class="fragment">Upgraded from WEBrick (not meant for production) to Unicorn</li>
-								<li class="fragment">Upgraded plan on Heroku</li>
-								<li class="fragment">Database
-									<ul>
-										<li class="fragment">Rack mini profiler … time to upload each page, number of SQL queries</li>
-										<li class="fragment">Bullet … where you put joins in queries</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-					</ul>
+					<h2><span class="step">Step 5</span>Mo users, mo problems</h2><br>
+
+          <div class="row">
+            <div class="col-xs-6">
+              <h4 class="fragment background">User Demands</h4>
+              <ul>
+                <li class="fragment">User requirements</li>
+                <li class="fragment">Team structure</li>
+                <li class="fragment">Data upload</li>
+              </ul>
+            </div>
+            <div class="col-xs-6">
+              <h4 class="fragment background">Performance</h4>
+              <ul>
+                <li class="fragment">Unicorn vs WEBrick</li>
+                <li class="fragment">Paid plan on Heroku</li>
+                <li class="fragment">Database
+                  <ul>
+                    <li class="fragment"><i class="fa fa-diamond"></i> Rack mini profiler … time to upload each page, number of SQL queries</li>
+                    <li class="fragment"><i class="fa fa-diamond"></i> Bullet … where you put joins in queries</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+          </div>
 				</section>	
 
-        <!-- STEP 5: UPGRADE --> 
+        <!-- STEP 6: UPGRADE --> 
 
         <section>
-          <h2><span class="step">Step 5</span>Upgrade - Adding new features</h2><br>
+          <h2><span class="step">Step 6</span>Upgrade - Adding new features</h2><br>
           <img src="img/upgrade.gif" height="400" class="gif">
         </section>
 
-				<section>
-					<h2><span class="step">Step 5</span>Upgrade - Adding new features</h2>
+				<section class="step-6">
+					<h2><span class="step">Step 6</span>Upgrade - Adding new features</h2>
 					<ul>
-						<li class="fragment"><h4>User Feedback</h4>
+						<li class="fragment"><h4><i class="fa fa-users fa-color"></i> User Feedback</h4>
 							<ul>
-								<li class="fragment">One v many users</li>
+								<li class="fragment">One vs many users</li>
 								<li class="fragment">People pleasing... Easy to get sidetracked</li>
 							</ul>
 						</li>
 						<br>
-						<li class="fragment"><h4>Change Management Log</h4>
+						<li class="fragment"><h4><i class="fa fa-code-fork fa-color"></i> Change Management Log</h4>
 							<ul>
 								<li class="fragment">Pushing changes while users are active</li>
 								<li class="fragment">Created Github change log to consider impact  (Change #, description, changes to underlying data structure)</li>
@@ -280,13 +308,19 @@
 						</li>
 					</ul>
 				</section>
+
+        <!-- STEP 7: INTEGRATION --> 
+
+        <section>
+          <h2><span class="step">Step 7</span>Integrating with</h2><h2> enterprise software</h2>
+          <img src="img/integration.gif" height="400" class="gif">
+        </section>
 				
 				<section>
-					<h2>Step 6: Integrating with enterprise software</h2>
+					<h2><span class="step">Step 7</span>Integrating with</h2><h2> enterprise software</h2>
 					<ul>
-						<li class="fragment">SPIDER is and enterprise web app - B2B</li>
-						<li class="fragment">Issue: Not a stand-alone app, must integrate with existing system</li>
-						<li class="fragment">Solution: Synchronizing information from ERP systems to SPIDER
+						<li class="fragment">SPIDER is an enterprise web app - B2B</li>
+						<li class="fragment"><i class="fa fa-lightbulb-o fa-color"></i> Solution: Synchronizing information from ERP systems to SPIDER
 							<ul>
 								<li class="fragment">Align SPIDER database to ERP </li>
 								<li class="fragment">Upload information via csv files</li>
@@ -301,8 +335,25 @@
 					<ul>
             <li>devise</li>
 						<li>better_errors</li>
+            <li>rack-mini-profiler</li>
+            <li>bullet</li>
+            <li>bootstrap</li>
+            <li>multi_fetch_fragments</li>
 					</ul>
 				</section>
+
+        <section>
+          <img src="img/hackeryou-logo.png" height="100">
+          <h2>HackerYou: Ruby on Rails</h2>
+          <ul>
+            <li>Starts Jan 18</li>
+            <li>12 weeks</li>
+          </ul>
+        </section>
+
+
+
+
 				<section>
 					<h2>Hello There</h2>
 					<p>

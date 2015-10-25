@@ -11,9 +11,19 @@ blue: #4EBBC1;
 	padding: 5px;
 	margin-right: 20px;
 	background-color: none;
+	margin-bottom: 5px;
 }
 
 .reveal .fa-arrow-right{
+	color: #4EBBC1;
+}
+
+.reveal .background {
+	background-color: #4EBBC1;
+	margin: 0 10px 0;
+}
+
+.reveal .fa-color {
 	color: #4EBBC1;
 }
 
@@ -47,12 +57,9 @@ blue: #4EBBC1;
 	border-bottom: 3px solid #4EBBC1;
 }
 
-/* Step 1*/
+/* Step 6*/
 
-.reveal .step-3 .background {
-	background-color: #4EBBC1;
-	margin: 0 10px 0;
-}
+
 
 /* Contact slide */
 
