@@ -57,8 +57,12 @@ blue: #4EBBC1;
 	border-bottom: 3px solid #4EBBC1;
 }
 
-/* Step 6*/
+/* Where it is at */
 
+.reveal .where-its-at img{
+	background: transparent;
+	border: none;
+}
 
 
 /* Contact slide */
